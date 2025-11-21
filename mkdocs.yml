@@ -1,0 +1,77 @@
+nav:
+  - 首页: index.md
+  - Mouse Away: 
+    - Win+R: ./win+r+cli/win+r.md
+    - CLI: ./win+r+cli/cli.md
+  - CLI Tools:
+    - 常用工具: ./cli_tools/tools.md
+  - Custom Env:
+    - 集成编辑器: ./custom_env/ide.md
+  - Mark Lan:
+    - Markdown: ./md_tex_typ/md.md
+  - Repo & Remote:
+    - 搭建仓库: ./repo_remote/repo.md
+  - Personal Web:
+    - 搭建网站: ./personal_website/web.md
+
+site_name: 星中观潮の小站
+site_url: https://web.jayi0908.top/
+theme:
+  name: material
+  language: 'zh'
+  favicon: assets/icons/favicon.png
+  icon:
+    logo: material/notebook-outline
+    top: material/arrow-up-thin
+  features:
+    - navigation.footer # 允许页脚导航
+    - navigation.tabs # 允许标签导航
+    - navigation.tabs.sticky # 允许标签导航固定
+    - navigation.sections # 允许章节导航
+    - navigation.path # 允许路径导航(形如 Home > Details)
+    - navigation.top # 允许返回顶部
+    - navigation.instant 
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: teal
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: blue
+      accent: orange
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true # 允许使用通用的数学公式
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search: 
+      lang: [zh, en]
+      # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
+      jieba_dict:  # 自定义中文分词词典
+
+extra_css:
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - ./assets/css/custom.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
+extra_javascript:
+  - ./assets/javascripts/color.js
+  - ./assets/javascripts/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js # 允许自动渲染数学公式

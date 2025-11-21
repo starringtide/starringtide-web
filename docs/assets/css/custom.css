@@ -1,0 +1,30 @@
+:root {
+    --md-text-font: "JetBrains Mono", "LXGW WenKai Screen"; 
+    --md-code-font: "JetBrains Mono";
+}
+
+[data-md-color-scheme=default] a.hiddenlink {
+    color: black;
+}
+
+[data-md-color-scheme=slate] a.hiddenlink {
+    color: hsla(225,15%,90%,0.82);
+}
+
+[data-md-color-scheme=default] a.citinglink {
+    color: #0000008a;
+}
+
+[data-md-color-scheme=slate] a.citinglink {
+    color: hsla(var(--md-hue), 15%, 90%, 0.56);
+}
+
+/*default主题下隐藏黑色图片*/
+[data-md-color-scheme="default"] .dark-img {
+    display: none;
+}
+
+/*slate主题下隐藏白色图片*/
+[data-md-color-scheme="slate"] .light-img {
+    display: none;
+}
