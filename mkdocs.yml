@@ -15,7 +15,7 @@ nav:
     - 搭建网站: ./personal_website/web.md
 
 site_name: 星中观潮の小站
-site_url: https://web.jayi0908.top/
+site_url: https://starringtide.github.io/starringtide-web/
 theme:
   name: material
   language: 'zh'
@@ -66,10 +66,10 @@ plugins:
       lang: [zh, en]
       # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
       jieba_dict:  # 自定义中文分词词典
-  # - statistics:
-  #     words_per_minute: 200
-  # - minify:
-  #     minify_html: true
+  - statistics:
+      words_per_minute: 200
+  - minify:
+      minify_html: true
 
 extra_css:
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
