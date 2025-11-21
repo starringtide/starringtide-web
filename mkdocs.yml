@@ -62,14 +62,14 @@ markdown_extensions:
   - md_in_html
 
 plugins:
-  - statistics:
-      words_per_minute: 200
   - search: 
       lang: [zh, en]
       # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
       jieba_dict:  # 自定义中文分词词典
-  - minify:
-      minify_html: true
+  # - statistics:
+  #     words_per_minute: 200
+  # - minify:
+  #     minify_html: true
 
 extra_css:
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
