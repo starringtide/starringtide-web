@@ -12,8 +12,6 @@
 
 需要声明，如果你不是本人，可能会觉得这个网站有点破碎，因为本网站设计初衷就是笔者的回忆录，而不是技术笔记（而且相比于 hexo 等博客，我还是比较喜欢使用 material）
 
-> 本网站还采用了 [鹤翔万里](https://github.com/TonyCrane/note/blob/master/mkdocs.yml#L83-L84){: class="citinglink", target="blank"} 学长的 CSS 样式，因为这个字体确实太豪堪了QWQ
-
 - 梦开始的地方开始的地方：[2023 春夏学期朋辈辅学「实用技能拾遗」课程](https://slides.tonycrane.cc/PracticalSkillsTutorial)及[配套视频](https://www.bilibili.com/video/BV1t34y1g7YU){: target="blank"}，更进一步的，可以去看 [Missing Semester](https://missing.csail.mit.edu/){: class="hiddenlink", target="blank"}（[计算机教育中缺失的一课](https://missing-semester-cn.github.io/){: class="hiddenlink", target="blank"}）
 - 成为 CS 人，从抛弃鼠标、拥抱键盘开始：[从 Win+R 和 CLI 开始抛弃鼠标](./win+r+cli/win+r.md)
 - 你已经熟悉了命令行，接下来玩一些有意思的工具吧：[让命令行工具接管一切](./cli_tools/tools.md)
