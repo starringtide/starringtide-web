@@ -1,2 +1,5 @@
-# -
-A website to record some essays in learning, made with Material for MkDocs.
+# 星中观潮的小站
+
+<s>这个人很懒，什么都没留下</s>
+
+记录了笔者梦开始的地方的<s>很随便的</s>网站，主要是本人零基础起步计算机的一点经验.
