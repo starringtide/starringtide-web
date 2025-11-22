@@ -4,7 +4,8 @@ nav:
     - Win+R: ./win+r+cli/win+r.md
     - CLI: ./win+r+cli/cli.md
   - CLI Tools:
-    - 常用工具: ./cli_tools/tools.md
+    - Shell 脚本: ./cli_script_tool/script.md
+    - 常用工具: ./cli_script_tool/tools.md
   - Custom Env:
     - 集成编辑器: ./custom_env/ide.md
   - Mark Lan:
@@ -76,10 +77,10 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://cdn.jsdelivr.net/gh/kjartanhr/JetBrainsMono-Webfont@main/JetBrainsMono/JetBrainsMono.css
   - assets/css/custom.css
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
   - assets/javascripts/color.js
   - assets/javascripts/katex.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js # 允许自动渲染数学公式
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
